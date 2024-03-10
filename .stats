@@ -1,0 +1,7 @@
+#! /bin/shbspc desktop -f '^2'
+
+bspc rule -a Xfce4-terminal:xfce4-terminal -o node=@^1:^1:/2
+bspc rule -a Xfce4-terminal:xfce4-terminal -o node=@^1:^6:/1/1
+bspc rule -a Xfce4-terminal:xfce4-terminal -o node=@^1:^6:/1/2
+bspc rule -a Xfce4-terminal:xfce4-terminal -o node=@^1:^6:/2/1
+bspc rule -a Xfce4-terminal:xfce4-terminal -o node=@^1:^6:/2/2
